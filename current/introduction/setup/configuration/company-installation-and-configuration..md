@@ -112,7 +112,7 @@ Click Update to save changes.
 
 ## Event Triggers View
 
-![Labels](./media/ct-labels-triggers.png)
+<!-- ![Labels](./media/ct-labels-triggers.png) -->
 
 In this view, we define the action of which Employee printing will proceed.
 

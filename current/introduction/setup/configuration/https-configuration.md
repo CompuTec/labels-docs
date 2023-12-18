@@ -26,7 +26,7 @@ CompuTec Labels port and certificate thumbprint are defined in the configuration
 
 Open it in a text editor (e.g., Notepad) running as an Administrator so you can save it. Otherwise, you must copy it from this folder to another location where the user can write and copy files back after editing.
 
-In the <configuration> → <appsettings> section define two keys:
+In the \<configuration\> → \<appsettings\> section define two keys:
 
 - portSSL with the port on which the HTTPS endpoint will run,
 
@@ -54,4 +54,4 @@ After making this change in the configuration file, restart the CompuTec Label S
 
 You can open this URL in a web browser and see if it returns defined printers in CompuTec Labels in JSON format:
 
-https://<your_server>:<your_port_from_the_configuration_file>/API/LabelPrint/GetLicensedPrinters
+https://\<your_server\>:\<your_port_from_the_configuration_file\>/API/LabelPrint/GetLicensedPrinters
