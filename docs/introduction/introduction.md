@@ -32,5 +32,4 @@ Using CompuTec Labels, you can print documents from SAP Business One and CompuTe
 
 ## Installation and Usage
 
-Here, you can watch a video with a comprehensive description of the application's installation and options:
-
+Here, you can watch a video with a comprehensive description of the application's installation and options.
