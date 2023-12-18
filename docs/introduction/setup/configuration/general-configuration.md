@@ -22,7 +22,7 @@ General settings you need to define:
 
 - License Server Address – SAP License Server – (with a port on HANA).
 
--CT License Server Address – CompuTec License Server connection address – (with a port on HANA).
+- CT License Server Address – CompuTec License Server connection address – (with a port on HANA).
 
 - Refresh – refresh rate in seconds indicating how often the service scans for new printing requests.
 
@@ -145,4 +145,3 @@ If a company is to be processed by our program, you must activate it. To do so, 
 Click here to find out more about company installation and configuration.
 
 ![Active](./media/activate-company.png)
-
