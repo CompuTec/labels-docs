@@ -1,4 +1,4 @@
-# CompuTec Labels 101
+# CompuTec Labels Introduction
 
 Here, you can find basic, first-encounter information about the application. For more detailed information, please check the rest of the documentation.
 
@@ -34,4 +34,3 @@ Using CompuTec Labels, you can print documents from SAP Business One and CompuTe
 
 Here, you can watch a video with a comprehensive description of the application's installation and options:
 
-[Download video](./media/Ct%20Label%20training-20180516%201409-1.arf)
