@@ -115,4 +115,4 @@ We can also print a label manually at any time. To do this in SAP B1, go to the 
 
 A system message will appear:
 
-![System message](./media/system-message.png)
+![System mMssage](./media/system-message.png)

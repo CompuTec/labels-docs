@@ -6,7 +6,7 @@ All the configuration is done via the manager application shipped with the insta
 
 Steps required to configure the service (order is not essential):
 
-<!-- ![General](./media/ct-labels-general.png) -->
+![General](./media/ct-labels-general.png)
 
 ## Service Status
 

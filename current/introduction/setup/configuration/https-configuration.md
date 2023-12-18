@@ -54,4 +54,4 @@ After making this change in the configuration file, restart the CompuTec Label S
 
 You can open this URL in a web browser and see if it returns defined printers in CompuTec Labels in JSON format:
 
-https://\<your_server\>:\<your_port_from_the_configuration_file\>/API/LabelPrint/GetLicensedPrinters
+`https://<your_server>:<your_port_from_the_configuration_file>/API/LabelPrint/GetLicensedPrinters`
