@@ -1,0 +1,7 @@
+{
+  "label": "Labels",
+  "pluginId": "labels",
+  "routeBasePath": "/labels",
+  "order": 2,
+  "currentVersion": "1.00"
+}
