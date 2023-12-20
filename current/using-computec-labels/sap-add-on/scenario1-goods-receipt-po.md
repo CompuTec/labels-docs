@@ -57,7 +57,7 @@ A Label Template used in this scenario:
 
 Crystal report used in this scenario:
 
-![Crystal Report](./media/scenario1-goods-receipt-po/crystal-report.jpg)
+![Crystal Report](./media/scenario1-goods-receipt-po/crystal-report.webp)
 
 In Crystal Reports, different variables are used, e.g., StringPar, and NumericPar. It is possible to attach to each of its specific data in the next step: mapping.
 
@@ -95,7 +95,7 @@ Event Triggers set up used in this scenario:
 
 After setting up all the settings, go to Companies and choose Update Global Data option:
 
-![Global Settings](./media/scenario1-goods-receipt-po/ct-labels-update-global-settings.png)
+![Global Settings](./media/scenario1-goods-receipt-po/ct-labels-update-global-settings.webp)
 
 ## Template assigning
 
@@ -111,12 +111,12 @@ We defined the printing trigger as OnChange, which means that, in our case, a pr
 
 We can also print a label manually at any time. To do this in SAP B1, go to the upper menu > File > Print Labels. Choose Crystal printer from a drop-down list and click Print.
 
-![Print Labels](./media/scenario1-goods-receipt-po/print-labels.png)
+![Print Labels](./media/scenario1-goods-receipt-po/print-labels.webp)
 
 A system message will appear:
 
-![System Message](./media/scenario1-goods-receipt-po/system-message.png)
+![System Message](./media/scenario1-goods-receipt-po/system-message.webp)
 
 A label is printed and saved as a PDF file in the default location: `Local Disk (C:)\ProgramData\CompuTec\CT Label Printing\Reports\Crystal`:
 
-![Printed Label](./media/scenario1-goods-receipt-po/printed-label.png)
+![Printed Label](./media/scenario1-goods-receipt-po/printed-label.webp)

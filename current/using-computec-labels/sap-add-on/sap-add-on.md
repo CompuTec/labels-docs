@@ -22,11 +22,11 @@ All objects regardless of an action in the event triggers view (CT_LP_ETRG table
 
 To print on your request, open a document (object type has been defined) you wish to print. Navigate to File > Print Labels.
 
-![SAP Add-on](./media/sap-add-on/ct-labels-print-labels.png)
+![SAP Add-on](./media/sap-add-on/ct-labels-print-labels.webp)
 
 New windows appear. From there, just select a printer and click Print:
 
-![SAP Add-on](./media/sap-add-on/ct-labels-select-printer.png)
+![SAP Add-on](./media/sap-add-on/ct-labels-select-printer.webp)
 
 ## Default printers for autonomic printing
 
@@ -36,8 +36,8 @@ To do that, choose SAP B1: Administration > Setup > General > User Defaults > Ge
 
 Then, assign the user code to match that code from the users_default page.
 
-![Defaults](./media/sap-add-on/ct-user-defaults.png)
+![Defaults](./media/sap-add-on/ct-user-defaults.webp)
 
 Employee Master Data
 
-![Employee Master Data](./media/sap-add-on/ct-labels-employee-master-data.png)
+![Employee Master Data](./media/sap-add-on/ct-labels-employee-master-data.webp)

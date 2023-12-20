@@ -32,4 +32,4 @@ A port as a path must be defined. You can configure it as mentioned below:
 
     d. Apply.
 
-    ![Print to PDF](./media/faq/print-to-pdf.png)
+    ![Print to PDF](./media/faq/print-to-pdf.webp)

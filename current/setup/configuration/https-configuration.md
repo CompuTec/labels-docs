@@ -18,11 +18,11 @@ Import a certificate used in the HTTPS communication to the Local Machine store 
 
 The certificate must be placed in the Personal → Certificates store:
 
-![Certificate](./media/https-configuration/certificate-local-computer.png)
+![Certificate](./media/https-configuration/certificate-local-computer.webp)
 
 After importing, copy its Thumbprint property from the certificate Details tab, as it must be entered into the configuration file:
 
-![Certificate](./media/https-configuration/certificate-thumbprint.png)
+![Certificate](./media/https-configuration/certificate-thumbprint.webp)
 
 ## Configuration
 

@@ -10,7 +10,7 @@ On this page, you can find detailed information on actions required to be taken 
 
 To start working with CompuTec Labels on a specific company, the application database objects must be installed on a specified database. This will cause the installation of tables to the database in which all the CompuTec Labels related information will be stored. To do this, select a company row, right-click, and press Install/Update. SAP Business One user credentials have to be filled in to continue. The status bar below will indicate when the operation is done with a message.
 
-![Install](./media/company-installation-and-configuration/labels-install-db-objects.png)
+![Install](./media/company-installation-and-configuration/labels-install-db-objects.webp)
 
 Upon successful completion, it is necessary to activate the database (please check the context menu on the screenshot above, context menu). Please click Refresh and Update after this.
 
@@ -26,7 +26,7 @@ Note that to change any of the settings, you have to enter database credentials 
 
 ## Settings View
 
-![Objects](./media/company-installation-and-configuration/ct-labels-settings.png)
+![Objects](./media/company-installation-and-configuration/ct-labels-settings.webp)
 
 Here, you can check a list of Object that can be chosen for Transaction. If you want to add new objects to the list for your CompuTec Labels installation, please contact [CompuTec Support](http://support.computec.pl/).
 
@@ -42,7 +42,7 @@ Please note that the template code returned by this procedure has to match the *
 
 ## Printing Rules View
 
-![Item Master Data](./media/company-installation-and-configuration/ct-labels-printing-rules.png)
+![Item Master Data](./media/company-installation-and-configuration/ct-labels-printing-rules.webp)
 
 In this view, we define new printing rules. The printing rule defines an action in which printing occurs.
 
@@ -80,7 +80,7 @@ To define a new rule, right-click on the table and choose Add new rule.
 
 Here, you can define mapping parameters: what data is assigned to a specific variable from a label layout. A mapping scheme is defined in a particular [template](./general-configuration.md#label-templates). Specific fields on a printing template will be filled with data assigned to parameters.
 
-![CT Labels Mapping](./media/company-installation-and-configuration/ct-labels-mapping.png)
+![CT Labels Mapping](./media/company-installation-and-configuration/ct-labels-mapping.webp)
 
 In this view, we provide parameter mappings for each template.
 
@@ -108,13 +108,13 @@ Choosing the SQL option means that you have to put in SQL or HANA queries to get
 
 An Example of parameters used in a template and a final label based on it:
 
-![Example Template](./media/company-installation-and-configuration/example-template.jpg)
+![Example Template](./media/company-installation-and-configuration/example-template.webp)
 
 Click Update to save changes.
 
 ## Event Triggers View
 
-![Labels](./media/company-installation-and-configuration/ct-labels-triggers.png)
+![Labels](./media/company-installation-and-configuration/ct-labels-triggers.webp)
 
 In this view, we define the action of which Employee printing will proceed.
 

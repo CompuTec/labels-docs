@@ -14,11 +14,11 @@ Attributes are the additional columns that are gathered by the application when 
 
 Each document type that is configured in Label Manager has embedded two queries that are responsible for preparing printing requests. Each row in the result of that query is then sanded to CT Label for additional service. The user can change those queries to manipulate label data and numbers. To find those queries, please go to:
 
-![Edit Settings](./media/gathering-more-information/edit-settings.png)
+![Edit Settings](./media/gathering-more-information/edit-settings.webp)
 
 Select the document you want to expand with new information and press the edit Queries option:
 
-![Edit Queries](./media/gathering-more-information/edit-queries.png)
+![Edit Queries](./media/gathering-more-information/edit-queries.webp)
 
 You can see two tabs on the screen that contains add and update query.
 
@@ -94,7 +94,7 @@ select CURRENT_SCHEMA "CompanyDatabase" ,'Printer' "Printer",'20' "TransactionTy
 
 You can see all calculated Attributes of specific requests just by selecting Detail Information on the requests screen.
 
-![Attributes](./media/gathering-more-information/attributes.png)
+![Attributes](./media/gathering-more-information/attributes.webp)
 
 ## Using Query Parameters
 
@@ -102,11 +102,11 @@ Query parameters are executed by the label manager when preparing a set of infor
 
 The Query parameters are specified in the Mappings table settings.
 
-![Mapping](./media/gathering-more-information/mapping-table.png)
+![Mapping](./media/gathering-more-information/mapping-table.webp)
 
 Please select a template for which you want to map the query to the output parameter.
 
-![Strings](./media/gathering-more-information/strings.png)
+![Strings](./media/gathering-more-information/strings.webp)
 
 ### Possible Parameters
 
@@ -134,4 +134,4 @@ The list of the input parameters is a column in the template query from point no
 
 The calculated values for custom queries are in the request details.
 
-![Name](./media/gathering-more-information/name.png)
+![Name](./media/gathering-more-information/name.webp)
