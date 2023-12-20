@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Requirements
 
 In this section, you can find descriptions of actions that must be performed before CompuTec Labels installation.
@@ -10,10 +14,10 @@ In this section, you can find descriptions of actions that must be performed bef
 
 3. To print SAP Crystal reports it is required to install the following components:
 
-        Crystal Server Integration
-        CR Integration
+    - Crystal Server Integration
+    - CR Integration
 
-The components can be found in the following locations:
+    The components can be found in the following locations:
 
     - For SAP HANA server: \\[SAP_SERVER]\b1_shf
 

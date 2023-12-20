@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # HTTPS Configuration
 
 Here, you can find information on configuring CompuTec Labels for HTTPS communication.
@@ -10,27 +14,27 @@ To configure HTTPS, it must import a valid certificate to the Local Machine stor
 
 ## Certificate
 
-Import a certificate used in the HTTPS communication to the Local Machine store on the Windows machine where the CompuTec Labels service will run. You can start the Local Machine certificate console with the command: certlm.msc.
+Import a certificate used in the HTTPS communication to the Local Machine store on the Windows machine where the CompuTec Labels service will run. You can start the Local Machine certificate console with the command: `certlm.msc`.
 
 The certificate must be placed in the Personal → Certificates store:
 
-![Certificate](./media/certificate-local-computer.png)
+![Certificate](./media/https-configuration/certificate-local-computer.png)
 
 After importing, copy its Thumbprint property from the certificate Details tab, as it must be entered into the configuration file:
 
-![Certificate](./media/certificate-thumbprint.png)
+![Certificate](./media/https-configuration/certificate-thumbprint.png)
 
 ## Configuration
 
-CompuTec Labels port and certificate thumbprint are defined in the configuration file located at C:\Program Files\CompuTec\CompuTec LabelPrinting\CompuTec.LabelPrinting.WinService.exe.config.
+CompuTec Labels port and certificate thumbprint are defined in the configuration file located at `C:\Program Files\CompuTec\CompuTec LabelPrinting\CompuTec.LabelPrinting.WinService.exe.config`.
 
 Open it in a text editor (e.g., Notepad) running as an Administrator so you can save it. Otherwise, you must copy it from this folder to another location where the user can write and copy files back after editing.
 
-In the \<configuration\> → \<appsettings\> section define two keys:
+In the `<configuration> → <appsettings>` section define two keys:
 
-- portSSL with the port on which the HTTPS endpoint will run,
+- **portSSL** with the port on which the HTTPS endpoint will run,
 
-- portSSLCertThumbprint with the thumbprint copied from the certificate.
+- **portSSLCertThumbprint** with the thumbprint copied from the certificate.
 
 Here is an example of the configuration:
 

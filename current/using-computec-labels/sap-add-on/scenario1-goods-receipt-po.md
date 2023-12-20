@@ -10,21 +10,21 @@ Only the Crystal printer type allows to save to PDF. Therefore, we will use this
 
 We will use the following printer configuration:
 
- - Printer Code: test1
+- Printer Code: test1
 
- - Printer Type: Crystal
+- Printer Type: Crystal
 
- - Printer Name: test1
+- Printer Name: test1
 
- - Localization: CT
+- Localization: CT
 
 With the following parameters, define
 
- - SaveAsPdf: True
+- SaveAsPdf: True
 
- - PhysicalName: Send to OneNote 16 (one of the printer's names available on this test server)
+- PhysicalName: Send to OneNote 16 (one of the printer's names available on this test server)
 
- - MaxCapacity: 75.
+- MaxCapacity: 75.
 
 ## Label Template
 
@@ -39,17 +39,17 @@ A Label Template used in this scenario:
 
 ## Printing Rules
 
-Requester: SAP
+- Requester: SAP
 
-Transaction: Goods Receipt PO
+- Transaction: Goods Receipt PO
 
-Employee/User/ItemGroup/Warehouse: All
+- Employee/User/ItemGroup/Warehouse: All
 
-Unit of Measurement – not checked
+- Unit of Measurement – not checked
 
-Header – not checked
+- Header – not checked
 
-Template: GRPO
+- Template: GRPO
 
 ## Label Report
 
@@ -57,7 +57,7 @@ Template: GRPO
 
 Crystal report used in this scenario:
 
-![Crystal Report](./media/crystal-report.jpg)
+![Crystal Report](./media/scenario1-goods-receipt-po/crystal-report.jpg)
 
 In Crystal Reports, different variables are used, e.g., StringPar, and NumericPar. It is possible to attach to each of its specific data in the next step: mapping.
 
@@ -65,7 +65,7 @@ In Crystal Reports, different variables are used, e.g., StringPar, and NumericPa
 
 Crystal reports used by CompuTec Labels have to be located in the following locations:
 
-C:\ProgramData\CompuTec\CT Label Printing\Reports\
+`C:\ProgramData\CompuTec\CT Label Printing\Reports\`
 
 (or the corresponding installation directory if the default one was not chosen).
 
@@ -95,7 +95,7 @@ Event Triggers set up used in this scenario:
 
 After setting up all the settings, go to Companies and choose Update Global Data option:
 
-![Global Settings](./media/ct-labels-update-global-settings.png)
+![Global Settings](./media/scenario1-goods-receipt-po/ct-labels-update-global-settings.png)
 
 ## Template assigning
 
@@ -111,8 +111,12 @@ We defined the printing trigger as OnChange, which means that, in our case, a pr
 
 We can also print a label manually at any time. To do this in SAP B1, go to the upper menu > File > Print Labels. Choose Crystal printer from a drop-down list and click Print.
 
-![Print Labels](./media/print-labels.png)
+![Print Labels](./media/scenario1-goods-receipt-po/print-labels.png)
 
 A system message will appear:
 
-![System mMssage](./media/system-message.png)
+![System Message](./media/scenario1-goods-receipt-po/system-message.png)
+
+A label is printed and saved as a PDF file in the default location: `Local Disk (C:)\ProgramData\CompuTec\CT Label Printing\Reports\Crystal`:
+
+![Printed Label](./media/scenario1-goods-receipt-po/printed-label.png)

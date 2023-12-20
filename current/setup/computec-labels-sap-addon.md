@@ -1,10 +1,14 @@
+---
+sidebar_position: 5
+---
+
 # CompuTec Labels SAP Addon
 
 CompuTec Labels SAP add-on is an extension utilizing printing SAP objects from the Business One Client.
 
 ## Installation
 
-Download installation files for the download page.
+Download installation files from the download page<!-- TODO: Link -->.
 
 This is a lightweight deployment add-on. As such, install it, log in to your SLD Service, import and assign the add-on from there.
 

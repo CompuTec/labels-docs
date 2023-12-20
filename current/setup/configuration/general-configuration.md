@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # General Configuration
 
 All the configuration is done via the manager application shipped with the installation. After launching the app, you can navigate through the menu on the left.
@@ -6,7 +10,7 @@ All the configuration is done via the manager application shipped with the insta
 
 Steps required to configure the service (order is not essential):
 
-![General](./media/ct-labels-general.png)
+![General](./media/general-configuration/ct-labels-general.png)
 
 ## Service Status
 
@@ -28,7 +32,7 @@ General settings you need to define:
 
 ## Printer Types
 
-![Printer Types](./media/printer-types.png)
+![Printer Types](./media/general-configuration/printer-types.png)
 
 There are three printer types available now:
 
@@ -42,13 +46,13 @@ In one of the future releases, the drivers will be assigned automatically to eve
 
 Click a row of a specific printer type to edit its details or remove it from the list. Clicking Add New Printer Type leads to the following form:
 
-![Add New Printer](./media/add-new-printer-type.png)
+![Add New Printer](./media/general-configuration/add-new-printer-type.png)
 
-Define the Printer Type Code, Printer Type Name, and a path to the printer driver library (the default path: [InstallationPath]\Drivers). Clicking the '+' icon adds a new Printer Type to the list from the previous form.
+Define the Printer Type Code, Printer Type Name, and a path to the printer driver library (the default path: `[InstallationPath]\Drivers`). Clicking the '+' icon adds a new Printer Type to the list from the previous form.
 
 ## Printers
 
-![Printers](./media/Printers.png)
+![Printers](./media/general-configuration/printers.png)
 
 Click a row of a specific printer to edit its details or remove it from the list.
 
@@ -62,15 +66,15 @@ Clicking Add New Printer leads to the form in which you can define the details o
 
 Please note that every field must be filled up to save the settings.
 
-![CompuTec Labels](./media/add-new-printer.png)
+![CompuTec Labels](./media/general-configuration/add-new-printer.png)
 
 After successful operation, assign a physical printer name and (if there are any) properties to the printer. To do that, please click on a tool wheel icon:
 
-![Printing Manager](./media/printers-configuration.png)
+![Printing Manager](./media/general-configuration/printers-configuration.png)
 
 It leads to the following form:
 
-![Printers](./media/printer-parameters.png)
+![Printers](./media/general-configuration/printer-parameters.png)
 
 You can set properties accordingly by clicking on a property (the left box) and assessing its value (the right box).
 
@@ -80,7 +84,7 @@ Crystal printers have the following options:
 
 - Physical Name – all printers available on the server
 
-  ![Printers](./media/windows-printers.png)
+  ![Printers](./media/general-configuration/windows-printers.png)
 
 Zebra printers have the following options:
 
@@ -94,21 +98,21 @@ Bixolon printers have the following options:
 
 The '+' button saves printer properties. In this view, we are also able to launch a test print. You can do this by clicking the icon highlighted in the screenshot below:
 
-![Parameters](./media/printer-parameters-printer.png)
+![Parameters](./media/general-configuration/printer-parameters-printer.png)
 
 You can access the specified printer log folder by clicking the folder icon (next to the test print icon).
 
 ## Label Templates
 
-Here, we can create Label Templates that determine which actions on which transactions printing will take place and what data will be printed. A set of settings, e.g., mapping or event triggers, can be assigned to a Template, which is later assigned to a specific printer.
+Here, we can create Label Templates that determine which actions on which transactions printing will take place and what data will be printed. A set of settings, e.g., [mapping](./company-installation-and-configuration.md#mapping-parameters-view) or [event triggers](./company-installation-and-configuration.md#event-triggers-view), can be assigned to a Template, which is later assigned to a specific printer.
 
-![Label Templates](./media/label-templates.png)
+![Label Templates](./media/general-configuration/label-templates.png)
 
 Click a row of a specific template to edit its details or remove it.
 
 You can create templates that act as a simple connector between data configuration and report files in this form. To do this, click Add Template. The following form will be displayed:
 
-![Add Template](./media/add-template.png)
+![Add Template](./media/general-configuration/add-template.png)
 
 Define Template Code, Template Name, and optionally Description. Click the '+' icon to add it to the list from the previous form.
 
@@ -116,21 +120,21 @@ Define Template Code, Template Name, and optionally Description. Click the '+' i
 
 After the template definition, assigning it here to specific printers is possible. After application installation, there are already default entries (marked on the screenshot below).
 
-![Label Reports](./media/label-reports.png)
+![Label Reports](./media/general-configuration/label-reports.png)
 
 To add a new report, right-click on a table and click Open Report Manager. It leads to the following form:
 
-![Reports Manager](./media/reports-manager.png)
+![Reports Manager](./media/general-configuration/reports-manager.png)
 
 You can generate report files via permutations by a given printer or template. Choose a printer or template and press Generate. Doing so will provide new entries in the main report form with appropriate report input.
 
-The first column, Info, indicates whether we have a report file assigned to it. Available statuses are OK or NOT FOUND. Select a row to assign a specific report file and press “Edit Report.” The application ships with default test reports. Standard localization: [InstallationPath]/Reports (default localization: C:\Program Files (x86)\CompuTec\CompuTec LabelPrinting\Reports). Place the report that you want to use in this directory.
+The first column, Info, indicates whether we have a report file assigned to it. Available statuses are OK or NOT FOUND. Select a row to assign a specific report file and press “Edit Report.” The application ships with default test reports. Standard localization: `[InstallationPath]/Reports` (default localization: `C:\Program Files (x86)\CompuTec\CompuTec LabelPrinting\Reports`). Place the report that you want to use in this directory.
 
-![Edit Reports](./media/edit-report.png)
+![Edit Reports](./media/general-configuration/edit-report.png)
 
 Choose the report file and name and click the + icon. Go back after the Data published message successfully.
 
-![Published](./media/published-file.png)
+![Published](./media/general-configuration/published-file.png)
 
 Now, the report file is assigned to a template and corresponding printer.
 
@@ -138,10 +142,10 @@ Now, the report file is assigned to a template and corresponding printer.
 
 Click the company tab and the Refresh button. Upon finishing, we add all company rows to our database by clicking the Update button.
 
-![Companies](./media/companies-refresh.png)
+![Companies](./media/general-configuration/companies-refresh.png)
 
 If a company is to be processed by our program, you must activate it. To do so, click on a given company and press Activate, then the Update button below the table.
 
 Click here to find out more about company installation and configuration.
 
-![Active](./media/activate-company.png)
+![Active](./media/general-configuration/activate-company.png)
