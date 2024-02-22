@@ -19,9 +19,7 @@ Now, the application is ready to configure settings for the specific company.
 With a right click, we may then navigate to Printing Rules, Mapping Parameters, Event Triggers, Report Rules, and Settings View.
 
 :::note
-
-Note that to change any of the settings, you have to enter database credentials (username and password)
-
+    Note that to change any of the settings, you have to enter database credentials (username and password)
 :::
 
 ## Settings View
@@ -51,29 +49,17 @@ Rules are grouped first by the requester and then by the transaction.
 To define a new rule, right-click on the table and choose Add new rule.
 
 - Requester – an application from which printing requests come. It can be SAP, WMS, or PDC.
-
 - Transaction – transaction on which a specific print occurs. By default, the following transactions are available: Delivery Note, Goods Receipt PO, Stock Transfer, Stock Transfer Request, Goods Return, Return, Item Master Data, Additional Batch Details, Storage Unit, Goods Issue, DraftGRPO.
-
 - Document – here, you can define whether the rule concerns all of the documents in the chosen transaction or just one (in this case, you must specify its document number).
-
 - Employee – The employee is defined in SAP B1 for whom this printing rule works. You can set up a specific one or all.
-
 - User – SAP B1 for whom this printing rule works. You can set up a specific one or all.
-
 - Item Group – you can choose a specific one or all.
-
 - Card Group – Business Partner type of a specific document. You can choose either Customers or Suppliers.
-
 - Branch – if the company has branches, you can choose for which one the printing rule applies
-
 - WHSCode – code of a Warehouse for which the rule works
-
 - Unit of Measure
-
 - Header
-
 - Ignore All Others
-
 - Template – a template assigned for a specific printing rule.
 
 ## Mapping Parameters View
@@ -93,15 +79,10 @@ In the second column select a parameter select – Parameter or SQL.
 On setting up Type to Parameter, you can choose the following values:
 
 - Item Code
-
 - Quantity
-
 - Supplier/Customer Code
-
 - Start From
-
 - BarCode
-
 - Item Name
 
 Choosing the SQL option means that you have to put in SQL or HANA queries to get a specific parameter from the database.
@@ -121,15 +102,11 @@ In this view, we define the action of which Employee printing will proceed.
 These rules are called event triggers. To add a new one, right-click on the table and choose Add. Choose for which employee from which department the rule will be valid (you can choose All for both values). Choose the Object Type for which the rule is set. In columns SAP, PDC, WMS, and PF, you can choose an action for a specific application with which CompuTec Labels is connected. You can choose the following actions:
 
 - OnChange – printing starts on the update of a document
-
 - Add – printing starts with the addition of a document
-
 - NoAction – no action is taken automatically; you have to choose the right option from the application to start printing
 
 Click Update to save changes.
 
 :::note
-
-Event Triggers are considered in CompuTec products: SAP CompuTec Labels add-on, CompuTec WMS, CompuTec PDC, and ProcessForce. You can print only from objects defined in this table in these products.
-
+    Event Triggers are considered in CompuTec products: SAP CompuTec Labels add-on, CompuTec WMS, CompuTec PDC, and ProcessForce. You can print only from objects defined in this table in these products.
 :::

@@ -27,9 +27,7 @@ Add query is executed when the document is added to the system.
 An update query is executed when the document is updated in the system.
 
 :::warning
-
-We recommend adding this new column in both queries.
-
+    We recommend adding this new column in both queries.
 :::
 
 ```sql
@@ -123,9 +121,7 @@ Input parameters for the custom query have a prefix of @
 Example:
 
 - @TransactionType
-
 - @DocumentKey
-
 - @MyCustomInfo
 
 The list of the input parameters is a column in the template query from point no. 1.

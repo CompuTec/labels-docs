@@ -33,7 +33,6 @@ Open it in a text editor (e.g., Notepad) running as an Administrator so you can 
 In the `<configuration> → <appsettings>` section define two keys:
 
 - **portSSL** with the port on which the HTTPS endpoint will run,
-
 - **portSSLCertThumbprint** with the thumbprint copied from the certificate.
 
 Here is an example of the configuration:

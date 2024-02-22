@@ -19,17 +19,12 @@ Microsoft Print to PDF requires an output path defined as a port.
 A port as a path must be defined. You can configure it as mentioned below:
 
 1. Go to Printer & Scanners.
-
 2. Find Microsoft Print to PDF, right click and select Print Properties.
-
 3. Define the new port under the Ports tab as shared below:
 
-    a. Local Port.
-
-    b. New Port.
-
-    c. Port Name: \{path\}\file.pdf.
-
-    d. Apply.
+    1. Local Port.
+    2. New Port.
+    3. Port Name: \{path\}\file.pdf.
+    4. Apply.
 
     ![Print to PDF](./media/faq/print-to-pdf.webp)

@@ -21,13 +21,9 @@ Addresses fields should be filled up automatically after a successful installati
 General settings you need to define:
 
 - WebServiceAddres – Computec Label web service address (defines the connection between CompuTec Labels and SAP Business One) – default port value is 33006. **Make sure that the port is open**.
-
 - Server Address – SAP Server Address – (with a port on HANA).
-
 - License Server Address – SAP License Server – (with a port on HANA).
-
 - CT License Server Address – CompuTec License Server connection address – (with a port on HANA).
-
 - Refresh – refresh rate in seconds indicating how often the service scans for new printing requests.
 
 ## Printer Types
@@ -37,7 +33,6 @@ General settings you need to define:
 There are three printer types available now:
 
 - Label Printers: Bixolon, Zebra
-
 - Standard Printers: for SAP Crystal Reports.
 
 To use any of these types, it is required to load its drivers (on the screenshot above, the drivers are already assigned: Printer Driver Name column is filled). To load the drivers, click a row of a specific printer and then click Edit Type. Click the icon next to the Driver Location field and choose the driver file corresponding to the Printer Type.
@@ -59,9 +54,7 @@ Click a row of a specific printer to edit its details or remove it from the list
 Clicking Add New Printer leads to the form in which you can define the details of the new printer:
 
 - Printer Code, Printer Name – printer identification,
-
 - Printer Type can only be chosen from the predefined drop-down list,
-
 - Localization – information field not connected to the application logic, e.g., Warehouse Click the '+' icon to add the printer to the list from the previous form.
 
 Please note that every field must be filled up to save the settings.
@@ -81,7 +74,6 @@ You can set properties accordingly by clicking on a property (the left box) and 
 Crystal printers have the following options:
 
 - SaveAsPdf – when this parameter is set to True, every print will also be saved as a PDF file (the option can be active simultaneously with the printing option)
-
 - Physical Name – all printers available on the server
 
   ![Printers](./media/general-configuration/windows-printers.webp)
@@ -89,7 +81,6 @@ Crystal printers have the following options:
 Zebra printers have the following options:
 
 - Physical Name – all printers available on the server
-
 - CodePage – code page declaration
 
 Bixolon printers have the following options:

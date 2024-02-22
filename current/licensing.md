@@ -15,9 +15,7 @@ CompuTec License Server is required in version 5.5 or above to work with CompuTe
 Run the installation file. When the installation is complete, run CompuTec Service Manager and choose CompuTec Label Service from a drop-down list:
 
 :::note
-
-CompuTec Service Manager is a tool available within CompuTec License Server.
-
+    CompuTec Service Manager is a tool available within CompuTec License Server.
 :::
 
 ![Service](./media/licensing/computec-label-service.webp)
@@ -31,11 +29,8 @@ To obtain a license file, please send the following information to CompuTec Supp
 1. CompuTec Labels Key – a number from CTLabel Keys from a screenshot above.
 
     :::note
-
-    To make the support procedure easier, please copy the from the field (do not send a screenshot)
-
+        To make the support procedure easier, please copy the from the field (do not send a screenshot)
     :::
-
 2. Number of required printer licenses (for partner's demo/test purposes: 1 printer license; for client's production system: a number of licenses bought for a client).
 
 The license file obtained from CompuTec support is a .xml file.

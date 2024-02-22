@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Other Functions
@@ -18,7 +18,7 @@ A log viewer – in the options below, we pick a date and a logging source (serv
 
 ![Requests](./media/other-functions/ct-labels-requests.webp)
 
-– viewing requests from CT_LP_Requests. The view allows us to filter database requests by date with a maximum count of 100. You can filter the list by company, requester, status, transaction type, and printer.
+Viewing requests from CT_LP_Requests. The view allows us to filter database requests by date with a maximum count of 100. You can filter the list by company, requester, status, transaction type, and printer.
 
 Right Click enables more options – you can send a request again (a new one is created) or attempt to rerun the exact request (status changes to C).
 

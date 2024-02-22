@@ -2,12 +2,10 @@
 sidebar_position: 1
 ---
 
-# SAP Add-on
+# Overview
 
 :::info
-
-To proceed with the following instructions, the SAP add-on has to be installed. Click [here](../../setup/computec-labels-sap-addon.md) to check how to do this.
-
+    To proceed with the following instructions, the SAP add-on has to be installed. Click [here](../../setup/computec-labels-sap-addon.md) to check how to do this.
 :::
 
 To be able to print, first, you have to define object types that will be marked for this action. You can check here how to do this. These are the only objects on that view that can trigger a print action.

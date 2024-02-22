@@ -1,12 +1,12 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Prerequisites
 
 In this section, you can find a guide of downloading and installation.
 
-# Download
+## Download
 
 There is one installation to perform and one plugin to upload on AppEngine.
 
@@ -25,13 +25,13 @@ There is one installation to perform and one plugin to upload on AppEngine.
 <!-- TODO: Replacement above Link to path -->
 
 :::info Requirement
-**CompuTec AppEngine** must be installed to be able to use **CompuTec Gateway** and upload **CompuTec Gateway Plugin**.
+    **CompuTec AppEngine** must be installed to be able to use **CompuTec Gateway** and upload **CompuTec Gateway Plugin**.
 :::
-
 
 ## Network Communication
 
-Both CompuTec Gateway and CompuTec Labels machines must have access to server where AppEngine has been installed and to port default or one you changed. So that they are enable to communicate.  _http(s)://appengineaddress:port_
+Both CompuTec Gateway and CompuTec Labels machines must have access to server where AppEngine has been installed and to port default or one you changed. So that they are enable to communicate.
 
-E.g:
- http://localhost:54000 
+`http(s)://appengineaddress:port`
+
+E.g: `http://localhost:54000`

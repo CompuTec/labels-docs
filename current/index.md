@@ -23,11 +23,8 @@ Using CompuTec Labels, you can print documents from SAP Business One and CompuTe
 ---
 
 - Choose a company – all SAP Business One installation companies are available. The application settings are set up for a specific database
-
 - Create a printing rule (template is assigned to it) - here, you can define in which situations it is possible to print a label. A number of settings are available.
-
 - Setting up trigger events – printing can be run using a proper option from a requester application (manual printing). We can also set up a trigger event, e.g., printing on a document add or update
-
 - Mapping table – what information would we like to have on a print
 
 ---

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Scenario 1: Goods Receipt PO printed from SAP Business One
 
 In this step-by-step manual, we will manually configure the application to print Goods Receipt PO from SAP Business One. Additionally, we want to save the prints to PDF.
@@ -11,19 +15,14 @@ Only the Crystal printer type allows to save to PDF. Therefore, we will use this
 We will use the following printer configuration:
 
 - Printer Code: test1
-
 - Printer Type: Crystal
-
 - Printer Name: test1
-
 - Localization: CT
 
 With the following parameters, define
 
 - SaveAsPdf: True
-
 - PhysicalName: Send to OneNote 16 (one of the printer's names available on this test server)
-
 - MaxCapacity: 75.
 
 ## Label Template
@@ -40,15 +39,10 @@ A Label Template used in this scenario:
 ## Printing Rules
 
 - Requester: SAP
-
 - Transaction: Goods Receipt PO
-
 - Employee/User/ItemGroup/Warehouse: All
-
 - Unit of Measurement – not checked
-
 - Header – not checked
-
 - Template: GRPO
 
 ## Label Report
