@@ -16,7 +16,7 @@ These versions require CompuTec License Server in 5.10.1.1 version.
 
 |Version|Platform|Download Link|
 |---|---|---|
-|4.7.1.129|x64|[Download](https://download.computec.one/software/labels/releases/CompuTec_Labels_4.7.1.129_x64.msi)|
+|4.7.1.130|x64|[Download](https://download.computec.one/software/labels/releases/CompuTec_Labels_4.7.1.130_x64.msi)|
 
 ### CompuTec Labels SAP Addon
 
