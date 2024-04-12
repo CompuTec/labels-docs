@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
 ---
 
-# Download links
+# Download
 
 ## Version compatible to SAP Business One 10.0 and ProcessForce 10.0
 
